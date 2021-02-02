@@ -26,7 +26,7 @@ The missing weights are filled with the average weights associated with the pati
 <li><b>CT Scan Dataset :</b> In this study, processing the CT scans from the first step is not required, as all the CT-CAPS outputs are provided. However, if you're interested in the source of the data, the chest CT scans used in this study, are accessible through <a href="https://github.com/ShahinSHH/COVID-CT-MD">https://github.com/ShahinSHH/COVID-CT-MD</a>. </li>
 </ul>
 
-<img src="https://github.com/ShahinSHH/Hybrid-CT-CAPS/blob/main/pipeline.png" width="400" height="400" />
+<img src="https://github.com/ShahinSHH/Hybrid-CT-CAPS/blob/main/pipeline.png" width="600" height="400" />
 
 
 ## Sample Decision Tree
@@ -35,6 +35,6 @@ inside the RF classifiers, the internal structure of one of the
 decision trees created by the proposed hybrid model is presented below. In this figure, the nodes and branches correspond to the split functions,
 features, and thresholding values.
 
-<img src="https://github.com/ShahinSHH/Hybrid-CT-CAPS/blob/main/tree.png" width="400" height="400" />
+<img src="https://github.com/ShahinSHH/Hybrid-CT-CAPS/blob/main/tree.png" width="400" height="600" />
 
 
