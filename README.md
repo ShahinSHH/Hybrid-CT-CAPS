@@ -15,8 +15,13 @@ show that the proposed hybrid model improves the CT-CAPS performance,
 achieving <b>accuracy of 90.8%, sensitivity of 94.5% and
 specificity of 86.0%</b>.
 
-## Data
-The Clinical data and the corresponding probability scores created by the CT-CAPS model are included in the CSV file <b>"Hybrid_CT_Data_Numeric.csv"</b>. The raw clinical data before filling the missing values and numerization are also available in the <b>"clinical_data_COVID_CT_MD.csv"</b>. The missing weights are filled with the average weights associated with the patient's gender. For 2 patients for which the symptom indications are not available, the corresponding columns are filled with 0. 
+## Code and Data
+<ul>
+ <li><b>Hybrid_CT_Data_Numeric.csv : </b>The Clinical data and the corresponding probability scores created by the CT-CAPS model are included in this CSV file .</li>
+<li><b>clinical_data_COVID_CT_MD.csv : </b> The raw clinical data before filling the missing values and numerization are also available in this file.
+The missing weights are filled with the average weights associated with the patient's gender. For 2 patients for which the symptom indications are not available, the corresponding columns are filled with 0. </li>
 
-
-In this study, processing the CT scans from the first step is not required, as all the CT-CAPS outputs are provided. However, if you're interested in the source of the data, the chest CT scans used in this study, are accessible through <a href="https://github.com/ShahinSHH/COVID-CT-MD">https://github.com/ShahinSHH/COVID-CT-MD</a>.
+<li> <b>RF.py : </b> Implementation of the Random Forest model proposed in this study to integrate clinical data and the probability scores created by the CT-CAPS framework
+</li>
+<li><b>CT Scan Dataset :</b> In this study, processing the CT scans from the first step is not required, as all the CT-CAPS outputs are provided. However, if you're interested in the source of the data, the chest CT scans used in this study, are accessible through <a href="https://github.com/ShahinSHH/COVID-CT-MD">https://github.com/ShahinSHH/COVID-CT-MD</a>. </li>
+</ul>
