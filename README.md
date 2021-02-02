@@ -1,7 +1,7 @@
 # Hybrid-CT-CAPS
 
 Recently, we have proposed a fully-automated framework
-based on Capsule Networks, referred to as the CT-CAPS, to distinguish
+based on Capsule Networks, referred to as the <a href="https://github.com/ShahinSHH/CT-CAPS">CT-CAPS</a>, to distinguish
 COVID-19 infection from normal and Community Acquired
 Pneumonia (CAP) cases using chest Computed Tomography (CT)
 scans which is published at the <a href="https://2021.ieeeicassp.org">IEEE ICASSP 2021</a>.
